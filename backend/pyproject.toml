@@ -22,6 +22,13 @@ uvicorn = "0.18.2"
 uvloop = "0.16.0"
 watchfiles = "0.16.1"
 websockets = "10.3"
+aiofiles = "^0.8.0"
+celery = "^5.2.7"
+flower = "^1.2.0"
+Jinja2 = "^3.1.2"
+pytest = "^7.1.2"
+redis = "^4.3.4"
+requests = "^2.28.1"
 
 [tool.poetry.dev-dependencies]
 
