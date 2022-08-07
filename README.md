@@ -55,3 +55,9 @@ Check the status:
 ```sh
 $ curl http://localhost:8004/tasks/<TASK_ID>
 ```
+
+To run all tests:
+
+    docker compose up -d --build 
+
+    docker-compose exec web python -m pytest
